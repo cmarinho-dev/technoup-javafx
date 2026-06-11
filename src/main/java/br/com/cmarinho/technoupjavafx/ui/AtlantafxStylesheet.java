@@ -7,8 +7,14 @@ import javafx.application.Application;
 public class AtlantafxStylesheet {
     public static void applyTheme(boolean requireDarkMode) {
         if (requireDarkMode)
-            Application.setUserAgentStylesheet(new PrimerDark().getUserAgentStylesheet());
+            Application.setUserAgentStylesheet(
+                    new PrimerDark()
+                            .getUserAgentStylesheet()
+                        );
         else
-            Application.setUserAgentStylesheet(new PrimerLight().getUserAgentStylesheet());
+            Application.setUserAgentStylesheet(
+                    new PrimerLight()
+                            .getUserAgentStylesheet()
+                        );
     }
 }
