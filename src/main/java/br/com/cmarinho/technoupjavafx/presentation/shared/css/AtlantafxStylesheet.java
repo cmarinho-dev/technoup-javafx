@@ -1,4 +1,4 @@
-package br.com.cmarinho.technoupjavafx.ui;
+package br.com.cmarinho.technoupjavafx.presentation.shared.css;
 
 import atlantafx.base.theme.PrimerDark;
 import atlantafx.base.theme.PrimerLight;
